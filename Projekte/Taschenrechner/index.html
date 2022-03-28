@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <link href="style.css" rel="stylesheet">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Taschenrechner</title>
+</head>
+
+<body>
+    <script src="logik.js"></script>
+    <div id="rechner">
+        <div id="ausgabe"></div>
+        <input type="button" class="button" value="1" onclick="holeValue(this)">
+        <input type="button" class="button" value="2" onclick="holeValue(this)">
+        <input type="button" class="button" value="3" onclick="holeValue(this)">
+        <input type="button" class="button-operation" value="+" onclick="plus()">
+        <input type="button" class="button" value="4" onclick="holeValue(this)">
+        <input type="button" class="button" value="5" onclick="holeValue(this)">
+        <input type="button" class="button" value="6" onclick="holeValue(this)">
+        <input type="button" class="button-operation" value="-" onclick="minus()">
+        <input type="button" class="button" value="7" onclick="holeValue(this)">
+        <input type="button" class="button" value="8" onclick="holeValue(this)">
+        <input type="button" class="button" value="9" onclick="holeValue(this)">
+        <input type="button" class="button-operation" value="*" onclick="mal()">
+        <input type="button" class="button-operation" value="C" onclick="resetRechner()">
+        <input type="button" class="button" value="0" onclick="holeValue(this)">
+        <input type="button" class="button-operation" value="." onclick="holeValue(this)">
+        <input type="button" class="button-operation" value="=" onclick="ergebnis()">
+    </div>
+
+</body>
+
+</html>
